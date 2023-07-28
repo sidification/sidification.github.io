@@ -166,9 +166,10 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	h5 {
+	h5, #header>#soft {
 		font-size: 0.9em;
 		line-height: 1.5em;
+		color:#787878
 	}
 
 	h6 {
@@ -2593,10 +2594,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url('/html5up-strata/images/night.jpg');
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-repeat: no-repeat,								no-repeat;
+		background-size: auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;

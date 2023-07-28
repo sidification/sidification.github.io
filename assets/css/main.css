@@ -166,7 +166,7 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	h5, #header>#soft {
+	h5, #header>h5#soft {
 		font-size: 0.9em;
 		line-height: 1.5em;
 		color:#787878
@@ -2143,8 +2143,12 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				border-radius: 60%;
+				width: 75px;
+				height: 75px;
+				object-fit: cover;
+				object-position: center center;
+				filter: grayscale(80%);
 			}
 
 /* List */
@@ -2594,7 +2598,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url('/html5up-strata/images/night.jpg');
+		background-image: url('/images/night.jpg');
 		background-position: top left,							top left;
 		background-repeat: no-repeat,								no-repeat;
 		background-size: auto 100%;
@@ -2628,7 +2632,7 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h2, #header h3, #header h4, #header, #header h6 {
 			color: #ffffff;
 		}
 

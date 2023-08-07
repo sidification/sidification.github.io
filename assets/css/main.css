@@ -2089,6 +2089,7 @@ input, select, textarea {
 				text-align: center;
 				text-decoration: none;
 				top: 50%;
+				transform: translate(-50%, -50%);
 				white-space: nowrap;
 			}
 
